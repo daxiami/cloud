@@ -3,6 +3,15 @@ server:
 
 # datasoure默认使用JDBC
 spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: '{cipher}cab983fb874e8d61dade49d09f30a6ffa5e61b5d546e696c6f99b59760b10905'
+    password: '{cipher}cab983fb874e8d61dade49d09f30a6ffa5e61b5d546e696c6f99b59760b10905'
+    template:
+      exchange: email_exchange
+      routing-key: email_routing
+      
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
@@ -14,9 +23,3 @@ spring:
     port: 25
     username: kefu@fubs.com.cn
     password: '{cipher}7aa1f59f9c21436ea703d1f54248fc3dbedfa917dff577077c9b545c5fe55167' 
-
-  rabbitmq:
-    host: 127.0.0.1
-    port: 5672
-    username: '{cipher}cab983fb874e8d61dade49d09f30a6ffa5e61b5d546e696c6f99b59760b10905'
-    password: '{cipher}cab983fb874e8d61dade49d09f30a6ffa5e61b5d546e696c6f99b59760b10905' 
