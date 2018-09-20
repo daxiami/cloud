@@ -9,6 +9,12 @@ spring:
     password: '{cipher}f68a421a7780ca020adde138a59e7085066e6283e71a2dfa223eccf22f0d00aa'
     url: jdbc:mysql://127.0.0.1:3306/mail?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
 
+  mail:
+    host: smtp.mxhichina.com
+    port: 25
+    username: kefu@fubs.com.cn
+    password: '{cipher}7aa1f59f9c21436ea703d1f54248fc3dbedfa917dff577077c9b545c5fe55167' 
+
   rabbitmq:
     host: 127.0.0.1
     port: 5672
