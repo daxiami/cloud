@@ -1,3 +1,6 @@
+server:
+  port: 7201
+
 # datasoure默认使用JDBC
 spring:
   datasource:
