@@ -9,8 +9,8 @@ spring:
     username: '{cipher}cab983fb874e8d61dade49d09f30a6ffa5e61b5d546e696c6f99b59760b10905'
     password: '{cipher}cab983fb874e8d61dade49d09f30a6ffa5e61b5d546e696c6f99b59760b10905'
     template:
-      exchange: email_exchange
-      routing-key: email_routing
+      exchange: sc_email_exchange
+      routing-key: sc_email_routing
       
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
