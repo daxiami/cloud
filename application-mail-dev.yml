@@ -1,5 +1,4 @@
-server:
-  port: 7901
+
 
 # datasoure默认使用JDBC
 spring:
